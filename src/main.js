@@ -16,3 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     renderTimeLine('#timeline');
   });
 
+import { Chuck } from '../src/services/welcomeService.js';
+
+document.addEventListener('DOMContentLoaded', async() => {
+  let welcomeele = document.getElementById("welcome");
+  welcomeele.innerText = await Chuck();
+  });

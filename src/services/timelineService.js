@@ -21,7 +21,7 @@ export function renderTimeLine(timeline){
                         </path>
                         </svg>
                         </div>
-                        <div class="timeline-${step.side}>">
+                        <div class="timeline-c>">
                             <time class="font-mono italic">${step.year}</time>
                             <div class="text-lg font-black"><h4>${step.title}</h4></div>
                             <p>${step.text}</p>
